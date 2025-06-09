@@ -1,19 +1,23 @@
 
-<!-- index.html -->
-<!-- Section: Time Display -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>JARVIS V1</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JARVIS V1</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="time">Loading time...</div>
-    <div id="chatbox">
-        <p><strong>User:</strong> Hi, JARVIS.</p>
-        <p><strong>JARVIS:</strong> Hello Sir.</p>
+  <div id="time-date"></div>
+
+  <div id="chat-container">
+    <div id="chat-log">
+      <!-- Chat messages will appear here -->
     </div>
-    <script src="script.js"></script>
+    <input type="text" id="chat-input" placeholder="Say something to JARVIS..." />
+    <button id="send-btn">Send</button>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
