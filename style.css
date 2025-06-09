@@ -1,14 +1,53 @@
 
-/* style.css */
-/* Section: Base Styling */
+/* 🧑‍🎨 Styling for JARVIS V1 Interface */
+
 body {
-    background-color: #000;
-    color: #0f0;
-    font-family: 'Courier New', monospace;
+  background-color: black;
+  color: #00ff00;
+  font-family: monospace;
+  padding: 20px;
 }
 
-/* Section: Time Display */
-#time {
-    font-size: 24px;
-    margin: 20px;
+#time-date {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+#chat-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+#chat-log {
+  background: #111;
+  padding: 10px;
+  min-height: 300px;
+  border: 1px solid #0f0;
+  margin-bottom: 10px;
+}
+
+#chat-log .user {
+  color: lime;
+  font-weight: bold;
+}
+
+#chat-log .jarvis {
+  color: cyan;
+  margin-left: 20px;
+}
+
+#chat-input {
+  width: 80%;
+  padding: 10px;
+  background: #222;
+  border: 1px solid #0f0;
+  color: #0f0;
+}
+
+#send-btn {
+  padding: 10px;
+  background: #0f0;
+  border: none;
+  color: black;
+  cursor: pointer;
 }
